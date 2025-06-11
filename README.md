@@ -1,7 +1,7 @@
-Applied Data Science Capstone Labs
+# Applied Data Science Capstone Labs
 This repository contains my completed laboratory assignments and projects for the IBM Applied Data Science Capstone course. The labs cover a range of essential topics in data science, from data collection and wrangling to exploratory analysis, machine learning, and interactive dashboard development.
 
-Repository Structure
+# Repository Structure
 The labs are organized into individual folders, each corresponding to a specific topic or assignment. This structure is designed to make it easy to navigate and find specific lab materials.
 
 Here's a breakdown of the folder structure:
@@ -14,38 +14,17 @@ Hands-on Lab Complete the Data Collection API Lab/: Covers methods for collectin
 Hands-on Lab Complete the Data Collection with Web Scraping lab/: Demonstrates techniques for extracting data from websites using web scraping.
 Hands-on Lab Data Wrangling/: Addresses the critical process of cleaning, transforming, and preparing raw data for analysis.
 Hands-on Lab Interactive Visual Analytics with Folium lab/: Explores the creation of interactive geospatial visualizations using the Folium library.
-Contents of Each Lab Folder
+
+# Contents of Each Lab Folder
 Each lab folder typically includes:
+    Jupyter Notebooks (.ipynb): The primary workspace for code, analysis, and explanations.
+    Data Files (.csv, etc.): Any datasets used or generated during the lab.
+    Other relevant files: Such as Python scripts, reports, or supporting documentation.
 
-Jupyter Notebooks (.ipynb): The primary workspace for code, analysis, and explanations.
-Data Files (.csv, etc.): Any datasets used or generated during the lab.
-Other relevant files: Such as Python scripts, reports, or supporting documentation.
-How to View/Run the Labs
-To view and run the Jupyter Notebooks in this repository:
-
-Clone the repository:
-Bash
-
-git clone https://github.com/FoxKid404/Applied-Data-Science-Capstone.git
-Navigate to the repository directory:
-Bash
-
-cd Applied-Data-Science-Capstone
-Install necessary libraries: Each lab might have specific dependencies. It's recommended to create a virtual environment. You might need to install libraries like pandas, matplotlib, seaborn, scikit-learn, plotly, dash, requests, BeautifulSoup4, folium, and database connectors (e.g., sqlite3, psycopg2-binary) if you don't have them. (Consider adding a requirements.txt file to each lab folder or a general one if you have specific dependencies.)
-Bash
-
-# Example for general installation (install specific ones as needed per lab)
-pip install pandas matplotlib seaborn scikit-learn plotly dash requests beautifulsoup4 folium
-Launch Jupyter Lab or Jupyter Notebook:
-Bash
-
-jupyter lab
-# OR
-jupyter notebook
-Open the .ipynb files from the respective lab folders in your browser.
-Contact
+# Contact
 Feel free to reach out if you have any questions or feedback.
 
 GitHub: FoxKid404
-License
+
+# License
 This project is open-source and available under the MIT License.
